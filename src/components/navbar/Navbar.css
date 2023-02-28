@@ -1,0 +1,17 @@
+.nav {
+  background-color: #171b1f;
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  /* padding: 1rem; */
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.nav a:hover {
+  background-color: #0093e9;
+  color: #171b1f;
+}

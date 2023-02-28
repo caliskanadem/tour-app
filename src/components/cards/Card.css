@@ -1,0 +1,48 @@
+.card {
+  background-color: #171b1f;
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+  /* max-height: 400px; */
+  position: relative;
+  overflow: hidden;
+}
+.card h2 {
+  text-transform: uppercase;
+  text-indent: 5px;
+  padding-bottom: 0.5rem;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card:hover .par {
+  transform: translateY(0%);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: 0.7s ease-in-out;
+  z-index: 3;
+  overflow: auto;
+  background-color: #171b1fbb;
+  padding: 1rem;
+  max-height: 50%;
+}
+.card ::-webkit-scrollbar {
+  display: none;
+}
